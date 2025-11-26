@@ -16,7 +16,13 @@ A fully responsive personal portfolio website designed to showcase skills, proje
     -   **Services:** Grid layout highlighting key skills (React, Responsive Design, UI/UX).
     -   **Portfolio:** Showcase of recent projects with hover effects.
     -   **Contact:** Functional-looking contact form with email integration (mailto).
+    -   
+## 🌐 Live Demo
 
+Once deployed to GitHub Pages, the websites will be available at:
+
+-   **Main Portfolio:** [https://ajy0594.github.io/portfolio-/](https://ajy0594.github.io/portfolio-/)
+-   **3D Portfolio:** [https://ajy0594.github.io/portfolio-/portfolio-3d/](https://ajy0594.github.io/portfolio-/portfolio-3d/)
 ## 🛠️ Tech Stack
 
 -   **HTML5:** Semantic markup for structure.
@@ -42,12 +48,7 @@ A fully responsive personal portfolio website designed to showcase skills, proje
 2.  Open the `index.html` file in any modern web browser.
 3.  Ensure you have an internet connection to load the external libraries (Fonts, Icons, Scripts).
 
-## 🌐 Live Demo
 
-Once deployed to GitHub Pages, the websites will be available at:
-
--   **Main Portfolio:** [https://ajy0594.github.io/portfolio-/](https://ajy0594.github.io/portfolio-/)
--   **3D Portfolio:** [https://ajy0594.github.io/portfolio-/portfolio-3d/](https://ajy0594.github.io/portfolio-/portfolio-3d/)
 
 ### How to Enable Live Links (GitHub Pages)
 
