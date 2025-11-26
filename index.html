@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
+    rel="stylesheet" />
+
+  <!-- boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Ajay Singh Rawat</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>
+        Passionate Frontend Developer specializing in building pixel-perfect, interactive web applications using React,
+        JavaScript, and modern CSS. Dedicated to creating seamless user experiences with a strong focus on responsive
+        design and performance optimization.
+      </p>
+      <div class="social-media">
+        <a href="https://linkedin.com/in/ajay-singh-rawat"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/ajy0594"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <a href="assets/cv.pdf" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+      <img src="images/ajay_profile.jpg" alt="" />
+    </div>
+  </section>
+
+  <!-- about -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/ajay_profile.jpg" alt="" />
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Frontend Developer!</h3>
+      <p>
+        I am a dedicated Frontend Developer with a keen eye for design and a passion for crafting engaging user
+        interfaces.
+        My expertise lies in translating design mockups into high-quality code using React, HTML5, and CSS3.
+        I stay up-to-date with the latest frontend trends and best practices to deliver modern, accessible, and
+        performant web solutions.
+      </p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- services -->
+
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>React Development</h3>
+        <p>
+          Building dynamic, single-page applications (SPAs) with React, Redux, and React Router for smooth navigation.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="bx bxs-devices"></i>
+        <h3>Responsive Design</h3>
+        <p>
+          Creating mobile-first layouts that adapt perfectly to any device screen size using CSS Grid and Flexbox.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="bx bxs-palette"></i>
+        <h3>UI/UX Implementation</h3>
+        <p>
+          Translating Figma/Adobe XD designs into pixel-perfect, interactive code with smooth animations and
+          transitions.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="images/port1.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>HireHub</h4>
+          <p>
+            Job Portal UI built with React. Features interactive dashboards and responsive job listings.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/port2.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>CalcAI</h4>
+          <p>
+            AI-Powered Calculator interface with intuitive input handling and real-time feedback.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/port3.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Two Good Co</h4>
+          <p>
+            Fitness Website with modern, aesthetic UI, smooth scrolling, and interactive workout plans.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <p style="text-align: center; color: var(--text-color); margin-bottom: 2rem; font-size: 1.6rem;">
+      Email: rawatajaysingh0401@gmail.com <br>
+      Phone: +91 6375784375
+    </p>
+
+    <form action="mailto:rawatajaysingh0401@gmail.com" method="post" enctype="text/plain">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address" />
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" />
+        <input type="text" placeholder="Email Subject" />
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </form>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Ajay Singh Rawat | All Rights Reserved|</p>
+    </div>
+
+    <div class="footer-iconTap">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
