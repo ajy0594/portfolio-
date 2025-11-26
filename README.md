@@ -42,6 +42,23 @@ A fully responsive personal portfolio website designed to showcase skills, proje
 2.  Open the `index.html` file in any modern web browser.
 3.  Ensure you have an internet connection to load the external libraries (Fonts, Icons, Scripts).
 
+## 🌐 Live Demo
+
+Once deployed to GitHub Pages, the websites will be available at:
+
+-   **Main Portfolio:** [https://ajy0594.github.io/portfolio-/](https://ajy0594.github.io/portfolio-/)
+-   **3D Portfolio:** [https://ajy0594.github.io/portfolio-/portfolio-3d/](https://ajy0594.github.io/portfolio-/portfolio-3d/)
+
+### How to Enable Live Links (GitHub Pages)
+
+1.  Go to your GitHub repository: [https://github.com/ajy0594/portfolio-](https://github.com/ajy0594/portfolio-)
+2.  Click on **Settings** (top right tab).
+3.  On the left sidebar, click on **Pages**.
+4.  Under **Build and deployment** > **Source**, select **Deploy from a branch**.
+5.  Under **Branch**, select `master` and `/ (root)`.
+6.  Click **Save**.
+7.  Wait a minute or two, and your links above will become active!
+
 ## 📂 Project Structure
 
 ```
